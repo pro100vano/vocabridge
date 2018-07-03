@@ -1,0 +1,147 @@
+/*
+   statusbar-overlay sets the background color for the overlay. Black text is the default when the statusbar plugin is not added. When the
+   statusbar plugin is added, it also adds default setting to make the content white via:
+
+       <preference name="StatusBarStyle" value="lightcontent"/>
+
+   Setting the background color to black will allow the default light content (white text/icons) to show on it. The statusbar plugin is included
+   in the config.xml file and will be added by the CLI when you build locally.
+
+   See https://github.com/apache/cordova-plugin-statusbar
+*/
+h1 {
+    color: #000000;
+    text-align: center;
+}
+
+
+.content-block{
+    padding: 0;
+}
+
+.panel {
+    background: #8CC641 !important;
+}
+
+.slick-slider{
+    margin: 20px 20px;
+}
+
+.slick-slider img{
+    margin: 0 auto;
+}
+
+.testimonial-slider .slick-slide{
+    padding: 40px 40px 0 20px;
+    background: url("http://vocabridge.devwha.info/wp-content/themes/_tk-master/includes/img/quote_icon.png") no-repeat 5% top;
+}
+
+
+.mPageTitle{
+    color: #000000;
+    font-weight: bold !important;
+}
+
+.mPageTitle span{
+    color: #8CC641;
+}
+
+.mLineWrapper{
+    text-align: center;
+    padding: 15px 0;
+}
+
+.mLine{
+    border-top: 4px solid #8CC641;
+    width: 80px;
+    display: inline-block;
+}
+
+.mbg-green{
+    background-color: #F1F8DD;
+    padding: 30px 0;
+    margin-bottom: 50px;
+}
+
+.mbg-green h1{
+    text-align: center;
+    margin: 0;
+    color: #8CC641;
+    font-weight: normal;
+}
+
+.mbg-green div{
+    text-align: center;
+}
+
+.mfw{
+    width: 95%;
+}
+
+.mbg-green div img{
+    width: 50%;
+}
+
+/* Get in communication */
+
+.form{
+    width: 80%;
+    margin: 0 5%;
+    box-shadow: 0 0 20px #C4C4C4;
+    border-radius: 20px;
+    padding: 10% 5%;
+}
+
+form{
+    font-weight: normal!important;
+}
+
+form label textarea{
+    height: 138px;
+}
+
+form label span strong{
+    color: #000;
+    font-size: 1.2em;
+    line-height: 2em;
+    margin: 0 5px 10px 10px;
+}
+
+form label textarea, form label input{
+    width: 90%;
+    border-radius: 4px;
+    resize: none;
+    border: 1px solid #C4C4C4;
+    padding: 5%;
+}
+
+form label input:focus, form label textarea:focus{
+    outline: #8CC641 solid 1px;
+}
+
+form input[type="submit"]{
+    color: #FFFFFF;
+    background-color: #8CC641;
+    width: 100%;
+    padding: 5%;
+    border-radius: 4px;
+    border: none;
+
+}
+
+
+/* my mini bootstrap */
+
+.cl-40{
+    width: 40%;
+    float: left;
+}
+
+.cl-60{
+    width: 60%;
+    float: left;
+}
+
+.row{
+    clear: both;
+}
